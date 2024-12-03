@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF009421),
+      backgroundColor: const Color(0xFF060270),
       body: Column(children: [
         Padding(
           padding:
@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
                           builder: (context) => const MyIdentityScreen()),
                       ),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF009421),
+                        backgroundColor: const Color(0xFF060270),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8),
                         ),

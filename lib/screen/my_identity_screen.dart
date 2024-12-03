@@ -36,7 +36,7 @@ class MyIdentityScreen extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.all(30),
             decoration: const BoxDecoration(
-              color: Colors.white,
+              color: const Color(0xFF060270),
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(30),
                   topRight: Radius.circular(30)
@@ -49,14 +49,20 @@ class MyIdentityScreen extends StatelessWidget {
                   Center(
                     child: Text(
                       "Patra Rafles Wostyla Sinaga",
-                      style: AppStyles.titleStyle.copyWith(fontSize: 20),
+                      style: AppStyles.titleStyle.copyWith(
+                        fontSize: 20,
+                        color: Colors.white
+                      ),
                     ),
                   ),
                   const SizedBox(height: 8),
                   Center(
                     child: Text(
                       "231402052",
-                      style: AppStyles.titleStyle.copyWith(fontSize: 18),
+                      style: AppStyles.titleStyle.copyWith(
+                        fontSize: 18,
+                        color: Colors.white
+                      ),
                     ),
                   ),
                 ],
